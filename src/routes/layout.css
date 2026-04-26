@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+body {
+    @apply bg-olive-500 text-white;
+}
