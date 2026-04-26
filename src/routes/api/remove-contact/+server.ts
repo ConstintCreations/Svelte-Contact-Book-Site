@@ -7,7 +7,7 @@ export async function DELETE({ request }) {
     const statement = db.prepare(
         `DELETE FROM contacts WHERE id = ?`
     );
-    statement.run({ id });
+    statement.run(id);
 
     return json({ success: true }, { status: 201 });
 }
