@@ -14,3 +14,7 @@ body {
 .contact-item {
     @apply h-[200px] m-2 border-5 rounded-[50px];
 }
+
+.text-input {
+    @apply rounded-2xl bg-mist-300 border-mist-400 border-3 text-mist-600 px-5 ring-0 transition-[scale,background-color] duration-300 focus:scale-105 focus:bg-mist-200;
+}
