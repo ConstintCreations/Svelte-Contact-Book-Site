@@ -6,5 +6,5 @@ export async function GET() {
         `SELECT * FROM contacts`
     );
     const contacts = statement.all();
-    return json(contacts);
+    return json({contacts: contacts});
 }
