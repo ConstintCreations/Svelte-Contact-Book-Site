@@ -3,5 +3,9 @@
 @plugin '@tailwindcss/typography';
 
 body {
-    @apply bg-olive-500 text-white;
+    @apply bg-mist-700 text-white;
+}
+
+.text-input {
+    @apply text-black;
 }

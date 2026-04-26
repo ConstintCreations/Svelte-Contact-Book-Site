@@ -9,13 +9,15 @@
     let contacts: Contact[] = [{name: 'Test', address: '123 Test St.', email: 'test@test.com', phone: '123-456-7890'}];
 </script>
 <main>
-    <div class="bg-olive-800">
-        <p>{contacts[0].name}</p>
-        <p>{contacts[0].address}</p>
-        <p>{contacts[0].email}</p>
-        <p>{contacts[0].phone}</p>
-    </div>
-    <div class="bg-olive-800">
+    <div class="bg-mist-500">
         +
     </div>
+    {#each contacts as contact} 
+        <div class="bg-mist-500">
+            <p>{contact.name}</p>
+            <p>{contact.address}</p>
+            <p>{contact.email}</p>
+            <p>{contact.phone}</p>
+        </div>
+    {/each}
 </main>
