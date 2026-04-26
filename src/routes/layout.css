@@ -4,8 +4,13 @@
 
 body {
     @apply bg-mist-700 text-white;
+    font-family: Arial, sans-serif;
 }
 
 .text-input {
     @apply text-black;
+}
+
+.contact-item {
+    @apply h-[200px] m-2 border-5 rounded-[50px];
 }
